@@ -10,7 +10,7 @@ class Power{
         double calc_power(double m, int n = 2){
             
             double value = 1;
-            for(int i = 0; i  <n; i++){
+            for(int i = 0; i < n; i++){
                 value = value*m;
             }
 
