@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//created a class RECTANLE to calculate the area of a given rectangle
+//created a class RECTANGLE to calculate the area of a given rectangle
 class RECTANGLE{
     private:
         double length;
@@ -52,7 +52,7 @@ int main(){
     cout << "Enter the breadth of the rectangle: ";
     cin >> breadth_of_rectangle;
 
-    RECTANGLE r1;//r1 is the object of RECTANLE class without passing any argument
+    RECTANGLE r1;//r1 is the object of RECTANGLE class without passing any argument
     r1.display_area();//it will use default constructor for the calculation of the area of rectangle
 
     RECTANGLE r2(length_of_rectangle, breadth_of_rectangle);//r2 object, passing length and breadth
