@@ -16,7 +16,6 @@ void display_matrix(int** matrix, int rows, int columns){
 }
 
 void matrix(){
-
     //declaring variables of rows and columns that I want in my matrix
     int rows, columns;
 
@@ -42,8 +41,7 @@ void matrix(){
             cout << "Enter the number you want at row " << i + 1 << " column " << j + 1 << " in the desired matrix: ";
             cin >> mat[i][j];
             
-        }
-        
+        }                
     }
     cout << endl;
 
