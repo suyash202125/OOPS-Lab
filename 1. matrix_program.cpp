@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 //function for displaying the matrix.
