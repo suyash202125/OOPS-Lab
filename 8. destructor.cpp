@@ -21,13 +21,13 @@ class destructor{
         //destructor
         ~destructor(){
             cout << "Destructor executed" << endl;
-        };
+        }
 };
 
 int main(){
 
     int n; //variable declaration
-    cout << "Enter the number of your choice: ";
+    cout << "\nEnter the number of your choice: ";
     cin >> n; //input to variable
 
     destructor myObj(n); //object declaration
